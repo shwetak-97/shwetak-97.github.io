@@ -28,7 +28,8 @@ function sum(){
      console.log(num2)
      console.log(num1.value)
      console.log(num2.value)
+     var c=parseInt(num1.value) +parseInt(num2.value)
 
      var result = document.getElementById("result")
-     result.innerHTML = num1.value+num2.value
+     result.innerHTML = c
 }
